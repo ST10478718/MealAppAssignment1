@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:text="Meal app" />
+
+
+    <TextView
+        android:id="@+id/txtwelcome"
+        android:layout_width="372dp"
+        android:layout_height="80dp"
+        android:text="Meal suggestions"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <EditText
+        android:id="@+id/txeTimeOfTheDay"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Time"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+</LinearLayout>
