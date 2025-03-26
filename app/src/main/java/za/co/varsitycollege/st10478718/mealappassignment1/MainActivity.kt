@@ -35,18 +35,19 @@ class MainActivity : AppCompatActivity() {
             // Meal suggestion
 
               val suggestions= when(timeOfDayText) {
-                        "morning" -> "Suggestions for the morning:\nOvernight Oats\nAvocado toast\nBanana pancakes\nOmelet and toast"
-                  "mid-morning snack"->"Suggestions for mid-morning snack:\nMuffins\nSmoothies\nSalad\nBaked chicken fingers"
-                  "afternoon"->"Suggestions for afternoon:\nTurkey Sandwich\nClassic peanut and Jelly Sandwich\nLoaded Bagel Sandwich\nAvocado toast with eggs"
-                  "afternoon snack"->"Suggestions for afternoon snack:\nFruit\nRaisins and nuts\nPopcorn\nYogurt"
-                  "dinner"->"Suggestions for dinner:\nChicken curry\nSpaghetti Bolognese\nMacaroni and cheese\nPepperoni pizza"
-                  "after dinner"->"Suggestions for after dinner:\nIce cream\nCookies\nCheesecake\nBrownies with ice cream"
-                    else -> "Invalid time of the day.Please use Morning,Mid-Morning Snack, Afternoon,Afternoon snack, Dinner,After Dinner"
-                    }
+                  "morning" -> "Suggestions for the morning:\nOvernight Oats\nAvocado toast\nBanana pancakes\nOmelet and toast"
+                  "mid-morning snack" -> "Suggestions for mid-morning snack:\nMuffins\nSmoothies\nSalad\nBaked chicken fingers"
+                  "afternoon" -> "Suggestions for afternoon:\nTurkey Sandwich\nClassic peanut and Jelly Sandwich\nLoaded Bagel Sandwich\nAvocado toast with eggs"
+                  "afternoon snack" -> "Suggestions for afternoon snack:\nFruit\nRaisins and nuts\nPopcorn\nYogurt"
+                  "dinner" -> "Suggestions for dinner:\nChicken curry\nSpaghetti Bolognese\nMacaroni and cheese\nPepperoni pizza"
+                  "after dinner" -> "Suggestions for after dinner:\nIce cream\nCookies\nCheesecake\nBrownies with ice cream"
+                  else -> "Invalid time of the day.Please use Morning,Mid-Morning Snack, Afternoon,Afternoon snack, Dinner,After Dinner"
+              }
                 txtwelcome.text=suggestions
-                }
                 }
 
             }
+}
+
 
 
