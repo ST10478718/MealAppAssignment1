@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                   "afternoon snack" -> "Suggestions for afternoon snack:\nFruit\nRaisins and nuts\nPopcorn\nYogurt"
                   "dinner" -> "Suggestions for dinner:\nChicken curry\nSpaghetti Bolognese\nMacaroni and cheese\nPepperoni pizza"
                   "after dinner" -> "Suggestions for after dinner:\nIce cream\nCookies\nCheesecake\nBrownies with ice cream"
-                  else -> "Invalid time of the day.Please use Morning,Mid-Morning Snack, Afternoon,Afternoon snack, Dinner,After Dinner"
+                  else -> "Invalid time of the day.Please use morning,mid-morning snack, afternoon,afternoon snack, dinner,after dinner"
               }
                 txtwelcome.text=suggestions
                 }
