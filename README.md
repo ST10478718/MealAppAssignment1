@@ -9,3 +9,4 @@ This app is made to also save time, instead of taking long to think of what meal
 This app is mainly made to help those with busy schedules and help those who order to much fast food to cook delicious food at home.
 
 # Features
+h 
